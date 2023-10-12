@@ -1,0 +1,74 @@
+[
+    {
+        "img":"https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "location":"Private room in New York",
+        "title": "Stay at this cozzy place",
+        "description":"1 guest | 1 bedroom | 1 bed | 1.5 shared bathrooms | WiFi | Kitchen | Free parking | Washing Machine",
+        "star":"4.73",
+        "price":"USD 30/night",
+        "total":"USD 120 total",
+        "long":0,
+        "lat":0,
+        "attribution":"Photo by Pixabay from Pexels: https://www.pexels.com/photo/bedroom-interior-setup-271624/"
+    },
+    {
+        "img":"https://images.pexels.com/photos/5998120/pexels-photo-5998120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "location":"Private room in Manhatthan",
+        "title": "Independent luxury studio apartment",
+        "description":"2-6 guest | 3 bedroom | 3 beds | 1.5 shared bathrooms | WiFi | Kitchen",
+        "star":"4.3",
+        "price":"USD 60/night",
+        "total":"USD 240 total",
+        "long":0,
+        "lat":0,
+        "attribution":"Photo by Max Rahubovskiy from Pexels: https://www.pexels.com/photo/stylish-living-room-in-light-apartment-5998120/"
+    },
+    {
+        "img":"https://images.pexels.com/photos/6587825/pexels-photo-6587825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "location":"Place to stay in Queens",
+        "title": "Stay at this precious house",
+        "description":"1 guest | 1 bedroom | 1 queen bed | 1 private bathroom | WiFi | Kitchen | Free parking | Washing Machine",
+        "star":"4.91",
+        "price":"USD 40/night",
+        "total":"USD 160 total",
+        "long":0,
+        "lat":0,
+        "attribution":"Photo by Max Rahubovskiy from Pexels: https://www.pexels.com/photo/interior-of-spacious-classic-styled-bedroom-decorated-with-golden-chandelier-and-lamps-6587825/"
+    },
+    {
+        "img":"https://images.pexels.com/photos/7005298/pexels-photo-7005298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "location":"Apartment in New York",
+        "title": "Stay at this studio",
+        "description":"2 guests | 1 bedroom | 1 double bed | 1.5 shared bathrooms | WiFi | Kitchen | Washing Machine",
+        "star":"4.53",
+        "price":"USD 40/night",
+        "total":"USD 160 total",
+        "long":0,
+        "lat":0,
+        "attribution":"Photo by Max Rahubovskiy from Pexels: https://www.pexels.com/photo/contemporary-illuminated-apartment-with-cozy-sofa-and-kitchen-area-7005298/"
+    },
+    {
+        "img":"https://images.pexels.com/photos/7005281/pexels-photo-7005281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "location":"Boutique hotel in New York",
+        "title": "Stay at this hotel in Times Square",
+        "description":"1 guest | 1 bedroom | 1 queen bed | 1 private bathroom | WiFi",
+        "star":"4.3",
+        "price":"USD 90/night",
+        "total":"USD 360 total",
+        "long":0,
+        "lat":0,
+        "attribution":"Photo by Max Rahubovskiy from Pexels: https://www.pexels.com/photo/modern-bedroom-interior-with-minimalist-furniture-and-wooden-parquet-7005281/"
+    },
+    {
+        "img":"https://images.pexels.com/photos/6444258/pexels-photo-6444258.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "location":"Room in West New York",
+        "title": "Stay at this cozzy house",
+        "description":"1 guest | 1 bedroom | 1 bed | 1.5 shared bathrooms | WiFi | Kitchen | Washing Machine | Free Parking",
+        "star":"4.9",
+        "price":"USD 35/night",
+        "total":"USD 140 total",
+        "long":0,
+        "lat":0,
+        "attribution":"Photo by Max Rahubovskiy from Pexels: https://www.pexels.com/photo/bedroom-interior-with-windows-and-windowsill-with-pillows-near-bed-6444258/"
+    }
+]

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+/* RCCC's custom utility classes: */
+@layer components{
+  /* Class buttonP: Apply these styles to a p element to simulate a button and it's behaviour. */
+  /* active:scale-95 --> when clicked scale the button so it simulates a button 
+    transition transform duration-100 ease-out--> effects and animation to be applied to the button when clicked*/
+  .buttonP{
+    @apply px-4 py-2 border rounded-full cursor-pointer 
+            hover:shadow-lg active:scale-95 active:bg-gray-100 
+            transition transform duration-100 ease-out
+  }
+}
