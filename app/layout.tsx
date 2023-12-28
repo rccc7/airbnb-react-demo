@@ -2,6 +2,10 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
+// Imports required to implement the router events
+import { Suspense } from "react";
+import { NavigationEvents } from "@/components/navigation-events";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +20,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        {/* RCCC: Implementation of NavigationEvents to show the progress bar whenever the page is changed
+        As stated in Next.js documentation: "<NavigationEvents> is wrapped in a Suspense boundary because useSearchParams() causes 
+        client-side rendering up to the closest Suspense boundary during static rendering"
+        For more info head over to: https://nextjs.org/docs/app/api-reference/functions/use-router#router-events*/}
+        <Suspense fallback={null}>
+          <NavigationEvents />
+        </Suspense>
+      </body>
     </html>
   );
 }

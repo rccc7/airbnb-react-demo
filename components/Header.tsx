@@ -89,7 +89,8 @@ function Header({ placeholder }: Props) {
         className="relative flex items-center h-10 cursor-pointer my-auto"
       >
         <Image
-          src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
+          // src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
+          src="https://firebasestorage.googleapis.com/v0/b/multiple-apps2.appspot.com/o/airbnb-react2%2FAirbnbReactLogo.png?alt=media&token=984f3a69-4eea-46a2-9fbd-efbe0ec6aedc"
           layout="fill"
           objectFit="contain" //Keep the aspect ratio (don't stretch)
           objectPosition="left"
